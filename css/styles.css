@@ -7594,3 +7594,7 @@ button.close {
     display: none !important;
   }
 }
+/* line 5, ../_sass/styles.scss */
+html, .rtl {
+  direction: rtl;
+}

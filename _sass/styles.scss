@@ -1,3 +1,7 @@
 // customize bootstrap variables here:
 @import "variables";
 @import "bootstrap";
+
+html, .rtl {
+    direction: rtl;
+}
