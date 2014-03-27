@@ -1,7 +1,10 @@
-name: I will Jekyll your ass!
+name: הסולם
+description: בית מדרש הסולם ללימוד פנימיות התורה בראשות הרב אדם סיני שליט״א
 markdown: kramdown
   # also installed: markdown: rdiscount
   # was: markdown: redcarpet
 pygments: true
 
 exclude: [config.rb]
+
+main_broadcast_url: "rtmp://broadcast.hasulam.co.il/live/myStream"

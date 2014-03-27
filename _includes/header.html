@@ -1,6 +1,18 @@
 {% include head.html %}
 
 <body class="{{ page.body_class }}">
+    <section class="container-fluid">
 
-
-</body>
+        <header>
+            <div class="row">
+                <h1 class="col-md-6 col-xs-12">{{ site.name }}</h1>
+                <h2 class="col-md-6 col-xs-12">
+                    {% if page.description %}
+                        {{ page.description }}
+                    {% else %}
+                        {{ site.description }}
+                    {% endif %}
+                </h2>
+            </div>
+            {% include nav.html %}
+        </header>
