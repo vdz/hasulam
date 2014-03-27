@@ -1,3 +1,7 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: I will Jekyll your ass!
+markdown: kramdown
+  # also installed: markdown: rdiscount
+  # was: markdown: redcarpet
 pygments: true
+
+exclude: [config.rb]
