@@ -1,0 +1,23 @@
+// Header
+.hat {
+    h1 {
+        font-family: NarkisTamLight;
+        font-size: ceil(($font-size-base * 5));
+    }
+}
+
+// Chat
+#__rtc {
+    @include box-sizing(border-box);
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}

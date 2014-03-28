@@ -1,7 +1,10 @@
 // customize bootstrap variables here:
 @import "config";
+@import "typography";
 @import "variables";
 @import "bootstrap";
 
 @import "rtl";
-@import "typography";
+
+@import "helpers";
+@import "ui_parts";

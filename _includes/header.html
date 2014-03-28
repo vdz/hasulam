@@ -3,16 +3,21 @@
 <body class="{{ page.body_class }}">
     <section class="container-fluid">
 
-        <header>
+        <header class="hat">
             <div class="row">
-                <h1 class="col-md-6 col-xs-12">{{ site.name }}</h1>
-                <h2 class="col-md-6 col-xs-12">
+                <a class="text-center col-md-12 col-xs-12" href="/" name="logo">
+                    <img  class="logo" src="img/ui/logo." />
+                </a>
+                <a class="col-md-3 col-md-offset-3 col-xs-12" href="/" name="logo">
+                    <h1>{{ site.name }}</h1>
+                </a>
+                <p class="col-md-3 col-xs-12">
                     {% if page.description %}
                         {{ page.description }}
                     {% else %}
                         {{ site.description }}
                     {% endif %}
-                </h2>
+                </p>
             </div>
             {% include nav.html %}
         </header>

@@ -1,0 +1,6 @@
+@import "helpers/mixins";
+
+.border-top             { @include border(top); }
+.border-bottom          { @include border(bottom); }
+.border-right           { @include border(right); }
+.border-left            { @include border(left); }
