@@ -1,9 +1,60 @@
+// Body
+body {
+   border-top: solid $master-gutter/2 $brand-dark-1;
+}
+
+.logo {
+    @include square(60px + $padding-base-vertical * 3);
+    display: inline-block;
+    padding: $padding-base-vertical;
+    border-radius: 50%;
+    border: solid 3px #e6f3ff;
+    background-color: #fff;
+    text-align: center;
+
+    img {
+        margin: auto;
+    }
+}
+
 // Header
 .hat {
+    position: relative;
+    min-height: 115px;
+    background-color: $brand-lite-1;
+    border-bottom: solid $gray-lighter 1px;
+
     h1 {
-        font-family: NarkisTamLight;
-        font-size: ceil(($font-size-base * 5));
+        font-weight: $f-black;
+        //font-size: ceil(($font-size-base * 5));
+
+        small {
+            font-weight: $f-normal;
+            font-size: $font-size-large;
+        }
+
+        .basad {
+            vertical-align: middle;
+            color: #ccc;
+            font-weight: $f-normal;
+            font-size: $font-size-base * 0.85;
+        }
     }
+
+    @media (max-width: $screen-sm-min) {
+        text-align: center;
+
+        .basad, .logo, h1 small {
+            @include center-block();
+            margin-bottom: $padding-base-vertical;
+        }
+    }
+}
+
+.site-alert {
+    @include border(bottom);
+    margin-top: $padding-large-vertical * 2;
+    margin-bottom: $padding-large-vertical;
 }
 
 // Chat

@@ -1,7 +1,18 @@
 ---
 layout: default
-title: I will Jekyll your ass!
+title: דף הבית
+alert: שלום חברים יקרים, עקב תקלה טכנית אתר הסולם ומרכז הלימודי אינם זמינים כעת. אנו עושים את מיטב מאמצינו כדי לפתור את הבעיות.
 ---
+    {% if page.alert %}
+        <section class="site-alert row">
+            <p class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 lead">{{ page.alert }}</p>
+        </section>
+    {% endif %}
+
+    <h1 class="section-title text-center container-fluid">שידור חי</h1>
+    {% include broadcast/live-broadcast.html %}
+
+
 <!--
 
 <div id="home">

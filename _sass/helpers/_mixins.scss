@@ -1,5 +1,5 @@
 @mixin border($dir : bottom) {
-    border-#{$dir}: solid 1px $gray;
+    border-#{$dir}: solid 1px $gray-lighter;
     padding-#{$dir}: $master-gutter;
     margin-#{$dir}: $master-gutter;
 }

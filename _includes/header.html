@@ -1,23 +1,22 @@
 {% include head.html %}
 
 <body class="{{ page.body_class }}">
-    <section class="container-fluid">
+    <section class="site">
 
-        <header class="hat">
-            <div class="row">
-                <a class="text-center col-md-12 col-xs-12" href="/" name="logo">
-                    <img  class="logo" src="img/ui/logo." />
+        <header class="hat container-fluid">
+            <h1>
+                <span class="basad">בס״ד</span>
+                <a class="logo" href="/" name="logo">
+                    <img class="img-circle" src="img/ui/logo-lite-blue.png" />
                 </a>
-                <a class="col-md-3 col-md-offset-3 col-xs-12" href="/" name="logo">
-                    <h1>{{ site.name }}</h1>
-                </a>
-                <p class="col-md-3 col-xs-12">
+                {{ site.name }}
+                <small>
                     {% if page.description %}
-                        {{ page.description }}
+                    {{ page.description }}
                     {% else %}
-                        {{ site.description }}
+                    {{ site.description }}
                     {% endif %}
-                </p>
-            </div>
+                </small>
+            </h1>
             {% include nav.html %}
         </header>

@@ -1,0 +1,58 @@
+$path : 'fonts/narkistam';
+
+@font-face {
+    font-family: 'NarkisTamLight';
+    src: url($path + '/narkistamlight-regular-webfont.eot');
+    src: url($path + '/narkistamlight-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistamlight-regular-webfont.woff') format('woff'),
+    url($path + '/narkistamlight-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NarkisTamExtraLight';
+    src: url($path + '/narkistamxtralight-normal-webfont.eot');
+    src: url($path + '/narkistamxtralight-normal-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistamxtralight-normal-webfont.woff') format('woff'),
+    url($path + '/narkistamxtralight-normal-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NarkisTam';
+    src: url($path + '/narkistam-medium-webfont.eot');
+    src: url($path + '/narkistam-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistam-medium-webfont.woff') format('woff'),
+    url($path + '/narkistam-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NarkisTamBlack';
+    src: url($path + '/narkistamblack-regular-webfont.eot');
+    src: url($path + '/narkistamblack-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistamblack-regular-webfont.woff') format('woff'),
+    url($path + '/narkistamblack-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NarkisTamCond';
+    src: url($path + '/narkistamcondensed-medium-webfont.eot');
+    src: url($path + '/narkistamcondensed-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistamcondensed-medium-webfont.woff') format('woff'),
+    url($path + '/narkistamcondensed-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NarkisTamCondLight';
+    src: url($path + '/narkistamcondensedlight-regular-webfont.eot');
+    src: url($path + '/narkistamcondensedlight-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url($path + '/narkistamcondensedlight-regular-webfont.woff') format('woff'),
+    url($path + '/narkistamcondensedlight-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

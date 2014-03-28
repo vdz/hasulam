@@ -1,11 +1,15 @@
 
-// SITE WRITING DIRECTION
-// Setup the two following vars to affect bootstrap grid system
+// Site's writing direction
+// [Setup the two following vars to affect bootstrap grid system]
 $dir        : right;
 $dir-rvrs   : left;
 
 // Typography overrides
-$font-family-sans-serif : NarkisTam, HelveticaNeue, Helvetica, Arial, sans-serif;
+$font-family-sans-serif : almoni-dl, HelveticaNeue, Helvetica, Arial, sans-serif;
 
 //
 $master-gutter : 10px;
+
+// Colors
+$brand-dark-1       : #33495f;
+$brand-lite-1       : #f2f9ff;
