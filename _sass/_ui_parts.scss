@@ -55,6 +55,17 @@ body {
     @include border(bottom);
     margin-top: $padding-large-vertical * 2;
     margin-bottom: $padding-large-vertical;
+
+    .lead {
+        @include make-xs-column(8);
+        @include make-sm-column(10);
+        @include make-md-column(8);
+        @include make-lg-column(8);
+        @include make-xs-column-offset(2);
+        @include make-sm-column-offset(1);
+        @include make-md-column-offset(2);
+        @include make-lg-column-offset(2);
+    }
 }
 
 // Chat
