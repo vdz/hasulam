@@ -33,10 +33,10 @@ $logo-size : 60px + $padding-base-vertical * 3;
         @include make-xs-column(12);
         position: relative;
         text-align: center;
+    }
 
-        .logo {
-            margin-top: 50px;
-        }
+    .logo {
+        margin-top: 50px;
     }
 
     h1 {
@@ -64,9 +64,18 @@ $logo-size : 60px + $padding-base-vertical * 3;
     @media (max-width: $screen-sm-min) {
         text-align: center;
 
-        h1 small {
-            @include center-block();
-            margin-bottom: $padding-base-vertical;
+        .logo {
+            margin-top: $padding-large-vertical;
+        }
+
+        h1 {
+            margin-top: $padding-large-vertical;
+            margin-bottom: $padding-large-vertical;
+
+            small {
+                @include center-block();
+                margin-bottom: $padding-base-vertical;
+            }
         }
     }
 }

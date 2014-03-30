@@ -1,16 +1,28 @@
-<section class="container-fluid">
+<section class="main-nav container-fluid">
     <div class="row">
-        <ul class="col-md-2 col-md-offset-2 list-unstyled">
-            <li><a href="/" class="disabled">מי אנחנו</a></li>
-            <li {% if page.nav-item == '/live' %} class='active' {% endif %}>
-                <a href="/live">שידור חי</a>
-            </li>
-            <li><a href="old.hasulam.co.il/index2.php?id=2477‎">ספרים להורדה</a></li>
-            <li><a href="http://moodle.hasulam.co.il">המרכז הלימודי</a></li>
-        </ul>
+        <nav class="main-site-nav">
+            <ul class="list-unstyled">
+                <li><a href="/about" class="disabled">מי אנחנו</a></li>
+                <li>
+                    <a {% if page.nav-item == '/live' %}
+                    class='active'
+                    {% endif %} href="/live">שידור חי</a>
+                </li>
+                <li><a href="old.hasulam.co.il/index2.php?id=2477‎">ספרים להורדה</a></li>
+                <li><a href="http://moodle.hasulam.co.il">המרכז הלימודי</a></li>
+            </ul>
+        </nav>
 
-        <ul class="">
-
-        </ul>
+        <nav class="main-media-nav">
+            <h5>השיעורים שלנו</h5>
+            <ul class="list-unstyled">
+                <li>
+                    <a href="http://youtube.com/user/hasulammedia">ערוץ ה-YouTube</a>
+                </li>
+                <li>
+                    <a href="http://files.hasulam.co.il">שרת קבצי המדיה</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </section>
