@@ -8,3 +8,4 @@ pygments: true
 exclude: [config.rb]
 
 main_broadcast_url: "rtmp://broadcast.hasulam.co.il/live/myStream"
+course_broadcast_url: "rtmp://broadcast.hasulam.co.il/live/course"
