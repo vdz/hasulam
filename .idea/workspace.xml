@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81cefaf-ddab-4927-91b6-68504ef5d5f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/_nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_ui_parts.scss" afterPath="$PROJECT_DIR$/_sass/_ui_parts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/broadcast/course-broadcast.html" afterPath="$PROJECT_DIR$/_includes/broadcast/course-broadcast.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/introspection-course/index.html" afterPath="$PROJECT_DIR$/_site/introspection-course/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/live/index.html" afterPath="$PROJECT_DIR$/_site/live/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/broadcast/live-broadcast.html" afterPath="$PROJECT_DIR$/_includes/broadcast/live-broadcast.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/styles.scss" afterPath="$PROJECT_DIR$/_sass/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hasulam.iws" />
@@ -118,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="48" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6238532" vertical-offset="425" max-vertical-offset="1156">
+            <state line="49" column="48" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-8.0" vertical-offset="425" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -176,9 +166,7 @@
         <entry file="file://$PROJECT_DIR$/live/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
-              <folding>
-                <marker date="1396193136000" expanded="true" signature="134:258" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,10 +198,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="69" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+            <state line="3" column="173" selection-start="208" selection-end="208" vertical-scroll-proportion="0.076576576" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -244,7 +232,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_sass/_variables.scss" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/live.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
@@ -258,6 +245,7 @@
         <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_sass/_nav.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -603,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="643" column="23" selection-start="23499" selection-end="23499" vertical-scroll-proportion="0.0" vertical-offset="6460" max-vertical-offset="11067">
@@ -628,15 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="54" selection-start="318" selection-end="318" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="544">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <marker date="1396193136000" expanded="true" signature="134:258" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +677,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="48" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.6238532" vertical-offset="425" max-vertical-offset="1156">
+        <state line="49" column="48" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-8.0" vertical-offset="425" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="173" selection-start="208" selection-end="208" vertical-scroll-proportion="0.076576576" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
