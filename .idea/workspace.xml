@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81cefaf-ddab-4927-91b6-68504ef5d5f9" name="Default" comment="gitignore update&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_typography.scss" afterPath="$PROJECT_DIR$/_sass/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_ui_parts.scss" afterPath="$PROJECT_DIR$/_sass/_ui_parts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
@@ -68,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_variables.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1858" selection-end="1873" vertical-scroll-proportion="-2.2727273" vertical-offset="658" max-vertical-offset="13668">
+            <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.18949045" vertical-offset="4216" max-vertical-offset="13668">
               <folding />
             </state>
           </provider>
@@ -89,7 +88,7 @@
       <file leaf-file-name="_config.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_config.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="196" selection-end="196" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="357">
+            <state line="13" column="0" selection-start="281" selection-end="294" vertical-scroll-proportion="-4.3333335" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -125,16 +124,16 @@
       <file leaf-file-name="_ui_parts.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="40" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-4.4528303" vertical-offset="616" max-vertical-offset="1530">
+            <state line="63" column="0" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-8.411765" vertical-offset="642" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.024113474" vertical-offset="0" max-vertical-offset="705">
+            <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -170,7 +169,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="308" selection-end="308" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+            <state line="8" column="41" selection-start="319" selection-end="319" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -241,16 +240,16 @@
         <option value="$PROJECT_DIR$/_sass/_config.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_sass/_variables.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_type.scss" />
         <option value="$PROJECT_DIR$/_sass/helpers/_mixins.scss" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/styles.scss" />
         <option value="$PROJECT_DIR$/_sass/_typography.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_sass/_variables.scss" />
       </list>
     </option>
   </component>
@@ -614,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_config.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="196" selection-end="196" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="214" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -659,13 +651,6 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="693" column="2" selection-start="20486" selection-end="20520" vertical-scroll-proportion="-1.1168832" vertical-offset="11695" max-vertical-offset="16456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1858" selection-end="1873" vertical-scroll-proportion="-2.2727273" vertical-offset="658" max-vertical-offset="13668">
           <folding />
         </state>
       </provider>
@@ -726,23 +711,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="308" selection-end="308" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_config.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="281" selection-end="294" vertical-scroll-proportion="-4.3333335" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="40" selection-start="1451" selection-end="1451" vertical-scroll-proportion="-4.4528303" vertical-offset="616" max-vertical-offset="1530">
+        <state line="63" column="0" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-8.411765" vertical-offset="642" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.024113474" vertical-offset="0" max-vertical-offset="705">
+        <state line="8" column="41" selection-start="319" selection-end="319" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.18949045" vertical-offset="4216" max-vertical-offset="13668">
           <folding />
         </state>
       </provider>

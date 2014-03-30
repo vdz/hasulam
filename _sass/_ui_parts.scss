@@ -57,14 +57,20 @@ body {
     margin-bottom: $padding-large-vertical;
 
     .lead {
-        @include make-xs-column(8);
-        @include make-sm-column(10);
-        @include make-md-column(8);
-        @include make-lg-column(8);
-        @include make-xs-column-offset(2);
+        @include make-xs-column(10);
+        @include make-xs-column-offset(1);
+
+        padding: $padding-large-vertical $padding-large-horizontal;
+        border-top: solid 2px $brand-dark-1;
+
+        /*@include make-sm-column(10);
         @include make-sm-column-offset(1);
+
+        @include make-md-column(8);
         @include make-md-column-offset(2);
-        @include make-lg-column-offset(2);
+
+        @include make-lg-column(8);
+        @include make-lg-column-offset(2);*/
     }
 }
 

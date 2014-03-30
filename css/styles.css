@@ -682,7 +682,7 @@ p {
   font-weight: 200;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 62, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
     font-size: 24px;
@@ -890,7 +890,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 191, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -1060,8 +1060,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* line 21, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .container:before, .container:after {
@@ -1072,22 +1072,22 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 10, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 740px;
+    width: 510px;
   }
 }
 @media (min-width: 992px) {
   /* line 10, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 960px;
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1160px;
+    width: 1170px;
   }
 }
 
@@ -1095,8 +1095,8 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* line 21, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .container-fluid:before, .container-fluid:after {
@@ -1110,8 +1110,8 @@ pre code {
 
 /* line 39, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_grid.scss */
 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 /* line 21, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .row:before, .row:after {
@@ -1127,8 +1127,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* line 829, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
@@ -1391,7 +1391,7 @@ pre code {
   margin-right: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 829, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: right;
@@ -2381,7 +2381,7 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 172, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -2833,7 +2833,7 @@ select[multiple].input-lg,
   color: #737373;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 338, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
@@ -2895,8 +2895,8 @@ select[multiple].input-lg,
 }
 /* line 413, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 /* line 21, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .form-horizontal .form-group:before, .form-horizontal .form-group:after {
@@ -2911,7 +2911,7 @@ select[multiple].input-lg,
 .form-horizontal .form-control-static {
   padding-top: 7px;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 423, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -2920,7 +2920,7 @@ select[multiple].input-lg,
 /* line 432, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
-  right: 10px;
+  right: 15px;
 }
 
 /* line 9, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4470,7 +4470,7 @@ input[type="button"].btn-block {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 203, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4996,7 +4996,7 @@ input[type="button"].btn-block {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 177, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -5025,7 +5025,7 @@ input[type="button"].btn-block {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #dddddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 206, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -5073,7 +5073,7 @@ input[type="button"].btn-block {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 11, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 4px;
@@ -5089,7 +5089,7 @@ input[type="button"].btn-block {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 31, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -5100,8 +5100,8 @@ input[type="button"].btn-block {
 .navbar-collapse {
   max-height: 340px;
   overflow-x: visible;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -5119,7 +5119,7 @@ input[type="button"].btn-block {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 50, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5149,10 +5149,10 @@ input[type="button"].btn-block {
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
-  margin-right: -10px;
-  margin-left: -10px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 99, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -5168,7 +5168,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 118, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5183,7 +5183,7 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 129, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5207,7 +5207,7 @@ input[type="button"].btn-block {
 /* line 153, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 14px 10px;
+  padding: 14px 15px;
   font-size: 20px;
   line-height: 22px;
   height: 50px;
@@ -5216,10 +5216,10 @@ input[type="button"].btn-block {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 167, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: -10px;
+    margin-left: -15px;
   }
 }
 
@@ -5227,7 +5227,7 @@ input[type="button"].btn-block {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -5251,7 +5251,7 @@ input[type="button"].btn-block {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 179, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5260,7 +5260,7 @@ input[type="button"].btn-block {
 
 /* line 218, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 7px -10px;
+  margin: 7px -15px;
 }
 /* line 221, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
@@ -5268,7 +5268,7 @@ input[type="button"].btn-block {
   padding-bottom: 10px;
   line-height: 22px;
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 229, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5293,7 +5293,7 @@ input[type="button"].btn-block {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 218, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5310,11 +5310,11 @@ input[type="button"].btn-block {
   }
   /* line 264, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav.navbar-right:last-child {
-    margin-right: -10px;
+    margin-right: -15px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 278, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5327,9 +5327,9 @@ input[type="button"].btn-block {
 }
 /* line 292, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-form {
-  margin-left: -10px;
-  margin-right: -10px;
-  padding: 10px 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -5337,13 +5337,13 @@ input[type="button"].btn-block {
   margin-top: 7px;
   margin-bottom: 7px;
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 304, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 292, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5357,7 +5357,7 @@ input[type="button"].btn-block {
   }
   /* line 324, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form.navbar-right:last-child {
-    margin-right: -10px;
+    margin-right: -15px;
   }
 }
 
@@ -5395,12 +5395,12 @@ input[type="button"].btn-block {
   margin-top: 14px;
   margin-bottom: 14px;
 }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 364, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   /* line 373, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text.navbar-right:last-child {
@@ -5467,7 +5467,7 @@ input[type="button"].btn-block {
   background-color: #e7e7e7;
   color: #555555;
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 459, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
@@ -5556,7 +5556,7 @@ input[type="button"].btn-block {
   background-color: #090909;
   color: white;
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 579, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
@@ -5937,7 +5937,7 @@ a.list-group-item.active > .badge,
 .jumbotron .container {
   max-width: 100%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   /* line 6, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron {
     padding-top: 48px;
@@ -6966,7 +6966,7 @@ button.close {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 125, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -7443,7 +7443,7 @@ button.close {
   text-shadow: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   /* line 212, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_carousel.scss */
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -7539,7 +7539,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 636, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-xs {
     display: block !important;
@@ -7561,7 +7561,7 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 480px) and (max-width: 991px) {
   /* line 636, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-sm {
     display: block !important;
@@ -7627,13 +7627,13 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   /* line 647, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 480px) and (max-width: 991px) {
   /* line 647, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-sm {
     display: none !important;
@@ -7761,7 +7761,7 @@ body {
   font-weight: 400;
   font-size: 13.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* line 21, ../_sass/_ui_parts.scss */
   .hat {
     text-align: center;
@@ -7787,70 +7787,29 @@ body {
 .site-alert .lead {
   position: relative;
   float: right;
-  width: 66.6666666667%;
+  width: 83.3333333333%;
   min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 10px 16px;
+  border-top: solid 2px #33495f;
+        /*@include make-sm-column(10);
+        @include make-sm-column-offset(1);
+
+        @include make-md-column(8);
+        @include make-md-column-offset(2);
+
+        @include make-lg-column(8);
+        @include make-lg-column-offset(2);*/
 }
-@media (min-width: 768px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    float: right;
-    width: 83.3333333333%;
-  }
-}
-@media (min-width: 992px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    float: right;
-    width: 66.6666666667%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    float: right;
-    width: 66.6666666667%;
-  }
-}
-@media (min-width: 480px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    margin-right: 16.6666666667%;
-  }
-}
-@media (min-width: 768px) {
+@media (min-width: 1px) {
   /* line 59, ../_sass/_ui_parts.scss */
   .site-alert .lead {
     margin-right: 8.3333333333%;
   }
 }
-@media (min-width: 992px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    margin-right: 16.6666666667%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 59, ../_sass/_ui_parts.scss */
-  .site-alert .lead {
-    margin-right: 16.6666666667%;
-  }
-}
 
-/* line 72, ../_sass/_ui_parts.scss */
+/* line 78, ../_sass/_ui_parts.scss */
 #__rtc {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7859,7 +7818,7 @@ body {
   min-height: 400px;
   width: 100%;
 }
-/* line 78, ../_sass/_ui_parts.scss */
+/* line 84, ../_sass/_ui_parts.scss */
 #__rtc iframe {
   position: absolute;
   top: 0;
