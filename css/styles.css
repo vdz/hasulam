@@ -4927,12 +4927,12 @@ input[type="button"].btn-block {
 }
 /* line 78, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li {
-  float: left;
+  float: right;
   margin-bottom: -1px;
 }
 /* line 84, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a {
-  margin-right: 2px;
+  margin-left: 2px;
   line-height: 1.428571429;
   border: 1px solid transparent;
   border-radius: 4px 4px 0 0;
@@ -4952,7 +4952,7 @@ input[type="button"].btn-block {
 
 /* line 118, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li {
-  float: left;
+  float: right;
 }
 /* line 122, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li > a {
@@ -5014,7 +5014,7 @@ input[type="button"].btn-block {
 }
 /* line 193, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-  margin-right: 0;
+  margin-left: 0;
   border-radius: 4px;
 }
 /* line 201, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
@@ -7722,7 +7722,7 @@ body {
   border-top: solid 5px #33495f;
 }
 
-/* line 6, ../_sass/_ui_parts.scss */
+/* line 9, ../_sass/_ui_parts.scss */
 .logo {
   width: 78px;
   height: 78px;
@@ -7733,49 +7733,59 @@ body {
   background-color: #fff;
   text-align: center;
 }
-/* line 15, ../_sass/_ui_parts.scss */
+/* line 18, ../_sass/_ui_parts.scss */
 .logo img {
   margin: auto;
 }
 
-/* line 21, ../_sass/_ui_parts.scss */
+/* line 24, ../_sass/_ui_parts.scss */
 .hat {
   position: relative;
   min-height: 115px;
   background-color: #f2f9ff;
   border-bottom: solid #eeeeee 1px;
 }
-/* line 27, ../_sass/_ui_parts.scss */
+/* line 30, ../_sass/_ui_parts.scss */
+.hat .logo-block {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  /* line 30, ../_sass/_ui_parts.scss */
+  .hat .logo-block {
+    float: right;
+    width: 8.3333333333%;
+  }
+}
+/* line 35, ../_sass/_ui_parts.scss */
+.hat .logo-block .logo {
+  margin-top: 50px;
+}
+/* line 40, ../_sass/_ui_parts.scss */
 .hat h1 {
   font-weight: 900;
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-/* line 31, ../_sass/_ui_parts.scss */
+/* line 46, ../_sass/_ui_parts.scss */
 .hat h1 small {
+  display: block;
   font-weight: 400;
   font-size: 20px;
 }
-/* line 36, ../_sass/_ui_parts.scss */
+/* line 52, ../_sass/_ui_parts.scss */
 .hat h1 .basad {
-  vertical-align: middle;
   color: #ccc;
   font-weight: 400;
   font-size: 13.6px;
 }
-@media (max-width: 480px) {
-  /* line 21, ../_sass/_ui_parts.scss */
-  .hat {
-    text-align: center;
-  }
-  /* line 47, ../_sass/_ui_parts.scss */
-  .hat .basad, .hat .logo, .hat h1 small {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6px;
-  }
-}
 
-/* line 54, ../_sass/_ui_parts.scss */
+/* line 69, ../_sass/_ui_parts.scss */
 .site-alert {
   border-bottom: solid 1px #eeeeee;
   padding-bottom: 10px;
@@ -7783,7 +7793,7 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 59, ../_sass/_ui_parts.scss */
+/* line 74, ../_sass/_ui_parts.scss */
 .site-alert .lead {
   position: relative;
   float: right;
@@ -7792,7 +7802,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding: 10px 16px;
-  border-top: solid 2px #33495f;
+  border-top: solid 5px #33495f;
         /*@include make-sm-column(10);
         @include make-sm-column-offset(1);
 
@@ -7803,13 +7813,13 @@ body {
         @include make-lg-column-offset(2);*/
 }
 @media (min-width: 1px) {
-  /* line 59, ../_sass/_ui_parts.scss */
+  /* line 74, ../_sass/_ui_parts.scss */
   .site-alert .lead {
     margin-right: 8.3333333333%;
   }
 }
 
-/* line 78, ../_sass/_ui_parts.scss */
+/* line 93, ../_sass/_ui_parts.scss */
 #__rtc {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7818,7 +7828,7 @@ body {
   min-height: 400px;
   width: 100%;
 }
-/* line 84, ../_sass/_ui_parts.scss */
+/* line 99, ../_sass/_ui_parts.scss */
 #__rtc iframe {
   position: absolute;
   top: 0;

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81cefaf-ddab-4927-91b6-68504ef5d5f9" name="Default" comment="gitignore update&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_ui_parts.scss" afterPath="$PROJECT_DIR$/_sass/_ui_parts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hasulam.iws" />
@@ -40,37 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="27" selection-end="27" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="live-broadcast.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/broadcast/live-broadcast.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="627" selection-end="627" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
+            <state line="1" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="214" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_variables.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.18949045" vertical-offset="4216" max-vertical-offset="13668">
+            <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="-1.5454545" vertical-offset="4216" max-vertical-offset="13668">
               <folding />
             </state>
           </provider>
@@ -106,25 +91,52 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="459">
+            <state line="7" column="38" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_font-almoni-dl.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/typography/_font-almoni-dl.scss">
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="11" selection-start="39" selection-end="39" vertical-scroll-proportion="0.9245283" vertical-offset="132" max-vertical-offset="731">
+            <state line="2" column="43" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.41975307" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ui_parts.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_navbar.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="10642">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navs.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="8" selection-start="3561" selection-end="3565" vertical-scroll-proportion="-2.7142856" vertical-offset="2715" max-vertical-offset="4216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_ui_parts.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-8.411765" vertical-offset="642" max-vertical-offset="1632">
+            <state line="35" column="29" selection-start="684" selection-end="684" vertical-scroll-proportion="0.66360855" vertical-offset="161" max-vertical-offset="1887">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="640" column="5" selection-start="23427" selection-end="23427" vertical-scroll-proportion="0.0" vertical-offset="7750" max-vertical-offset="11271">
               <folding />
             </state>
           </provider>
@@ -157,19 +169,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_font-narkistam.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/typography/_font-narkistam.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="159" selection-end="159" vertical-scroll-proportion="-0.8018868" vertical-offset="0" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="319" selection-end="319" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+            <state line="6" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -224,22 +227,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_site/index.html" />
-        <option value="$PROJECT_DIR$/_sass/_rtl.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss" />
         <option value="$PROJECT_DIR$/_assets/fonts/webfontkit-20140327-203607/narkistam.css" />
         <option value="$PROJECT_DIR$/_sass/_helpers.scss" />
         <option value="$PROJECT_DIR$/_sass/_header.scss" />
-        <option value="$PROJECT_DIR$/_includes/broadcast/live-broadcast.html" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_grid.scss" />
         <option value="$PROJECT_DIR$/_sass/typography/_font-narkistam.scss" />
         <option value="$PROJECT_DIR$/_sass/typography/_font-almoni-dl.scss" />
         <option value="$PROJECT_DIR$/_sass/_config.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_type.scss" />
         <option value="$PROJECT_DIR$/_sass/helpers/_mixins.scss" />
@@ -247,9 +245,14 @@
         <option value="$PROJECT_DIR$/_sass/styles.scss" />
         <option value="$PROJECT_DIR$/_sass/_typography.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/_includes/broadcast/live-broadcast.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
       </list>
     </option>
   </component>
@@ -378,52 +381,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="typography" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -439,24 +396,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="broadcast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,34 +503,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="129727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.19345662" vertical-offset="0" max-vertical-offset="703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-03-27-welcome-to-jekyll.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="783" selection-end="783" vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_rtl.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="136">
@@ -662,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_type.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="221" column="37" selection-start="4601" selection-end="4601" vertical-scroll-proportion="-2.935065" vertical-offset="3531" max-vertical-offset="4947">
@@ -679,13 +583,6 @@
     <entry file="file://$PROJECT_DIR$/_sass/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="43" selection-start="74" selection-end="74" vertical-scroll-proportion="-0.33333334" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
@@ -704,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/broadcast/live-broadcast.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="627" selection-end="627" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
@@ -725,23 +615,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
+    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1372" selection-end="1372" vertical-scroll-proportion="-8.411765" vertical-offset="642" max-vertical-offset="1632">
+        <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="-1.5454545" vertical-offset="4216" max-vertical-offset="13668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="640" column="5" selection-start="23427" selection-end="23427" vertical-scroll-proportion="0.0" vertical-offset="7750" max-vertical-offset="11271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="319" selection-end="319" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+        <state line="6" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/_includes/broadcast/live-broadcast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="36" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.18949045" vertical-offset="4216" max-vertical-offset="13668">
+        <state line="1" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="8" selection-start="3561" selection-end="3565" vertical-scroll-proportion="-2.7142856" vertical-offset="2715" max-vertical-offset="4216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="43" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.41975307" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="29" selection-start="684" selection-end="684" vertical-scroll-proportion="0.66360855" vertical-offset="161" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>

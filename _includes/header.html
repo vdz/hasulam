@@ -4,19 +4,26 @@
     <section class="site">
 
         <header class="hat container-fluid">
-            <h1>
-                <span class="basad">בס״ד</span>
-                <a class="logo" href="/" name="logo">
-                    <img class="img-circle" src="img/ui/logo-lite-blue.png" />
-                </a>
-                {{ site.name }}
-                <small>
-                    {% if page.description %}
-                    {{ page.description }}
-                    {% else %}
-                    {{ site.description }}
-                    {% endif %}
-                </small>
-            </h1>
-            {% include nav.html %}
+            <div class="row">
+                <div class="logo-block">
+                    <a class="logo" href="/" name="logo">
+                        <img class="img-circle" src="img/ui/logo-lite-blue.png" />
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <h1>
+                        <div class="basad">בס״ד</div>
+                        {{ site.name }}
+                        <small>
+                            {% if page.description %}
+                            {{ page.description }}
+                            {% else %}
+                            {{ site.description }}
+                            {% endif %}
+                        </small>
+                    </h1>
+                </div>
+
+            </div>
         </header>
+        {% include nav.html %}

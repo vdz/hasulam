@@ -3,8 +3,11 @@ body {
    border-top: solid $master-gutter/2 $brand-dark-1;
 }
 
+
+// Logo
+$logo-size : 60px + $padding-base-vertical * 3;
 .logo {
-    @include square(60px + $padding-base-vertical * 3);
+    @include square($logo-size);
     display: inline-block;
     padding: $padding-base-vertical;
     border-radius: 50%;
@@ -24,31 +27,43 @@ body {
     background-color: $brand-lite-1;
     border-bottom: solid $gray-lighter 1px;
 
+    .logo-block {
+        @include make-md-column(1);
+        position: relative;
+        text-align: center;
+
+        .logo {
+            margin-top: 50px;
+        }
+    }
+
     h1 {
         font-weight: $f-black;
-        //font-size: ceil(($font-size-base * 5));
+        font-size: ceil(($font-size-base * 5));
+        margin-top: $padding-large-vertical * 3;
+        margin-bottom: $padding-large-vertical * 3;
 
         small {
+            display: block;
             font-weight: $f-normal;
             font-size: $font-size-large;
         }
 
         .basad {
-            vertical-align: middle;
             color: #ccc;
             font-weight: $f-normal;
             font-size: $font-size-base * 0.85;
         }
     }
 
-    @media (max-width: $screen-sm-min) {
-        text-align: center;
-
-        .basad, .logo, h1 small {
-            @include center-block();
-            margin-bottom: $padding-base-vertical;
-        }
-    }
+//    @media (max-width: $screen-md-min) {
+//        text-align: center;
+//
+//        .basad, .logo, h1 small {
+//            @include center-block();
+//            margin-bottom: $padding-base-vertical;
+//        }
+//    }
 }
 
 .site-alert {
@@ -61,7 +76,7 @@ body {
         @include make-xs-column-offset(1);
 
         padding: $padding-large-vertical $padding-large-horizontal;
-        border-top: solid 2px $brand-dark-1;
+        border-top: solid 5px $brand-dark-1;
 
         /*@include make-sm-column(10);
         @include make-sm-column-offset(1);
