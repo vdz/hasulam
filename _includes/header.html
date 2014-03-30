@@ -10,20 +10,17 @@
                         <img class="img-circle" src="img/ui/logo-lite-blue.png" />
                     </a>
                 </div>
-                <div class="col-md-8">
-                    <h1>
-                        <div class="basad">בס״ד</div>
-                        {{ site.name }}
-                        <small>
-                            {% if page.description %}
-                            {{ page.description }}
-                            {% else %}
-                            {{ site.description }}
-                            {% endif %}
-                        </small>
-                    </h1>
-                </div>
-
+                <h1>
+                    <div class="basad">בס״ד</div>
+                    {{ site.name }}
+                    <small>
+                        {% if page.description %}
+                        {{ page.description }}
+                        {% else %}
+                        {{ site.description }}
+                        {% endif %}
+                    </small>
+                </h1>
             </div>
         </header>
         {% include nav.html %}

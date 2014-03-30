@@ -29,6 +29,8 @@ $logo-size : 60px + $padding-base-vertical * 3;
 
     .logo-block {
         @include make-md-column(1);
+        @include make-sm-column(2);
+        @include make-xs-column(12);
         position: relative;
         text-align: center;
 
@@ -38,6 +40,9 @@ $logo-size : 60px + $padding-base-vertical * 3;
     }
 
     h1 {
+        @include make-md-column(8);
+        @include make-sm-column(8);
+        @include make-xs-column(12);
         font-weight: $f-black;
         font-size: ceil(($font-size-base * 5));
         margin-top: $padding-large-vertical * 3;
@@ -56,14 +61,14 @@ $logo-size : 60px + $padding-base-vertical * 3;
         }
     }
 
-//    @media (max-width: $screen-md-min) {
-//        text-align: center;
-//
-//        .basad, .logo, h1 small {
-//            @include center-block();
-//            margin-bottom: $padding-base-vertical;
-//        }
-//    }
+    @media (max-width: $screen-sm-min) {
+        text-align: center;
+
+        h1 small {
+            @include center-block();
+            margin-bottom: $padding-base-vertical;
+        }
+    }
 }
 
 .site-alert {
@@ -76,7 +81,7 @@ $logo-size : 60px + $padding-base-vertical * 3;
         @include make-xs-column-offset(1);
 
         padding: $padding-large-vertical $padding-large-horizontal;
-        border-top: solid 5px $brand-dark-1;
+        //border-top: solid 5px $brand-dark-1;
 
         /*@include make-sm-column(10);
         @include make-sm-column-offset(1);

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d81cefaf-ddab-4927-91b6-68504ef5d5f9" name="Default" comment="gitignore update&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+    <list default="true" id="d81cefaf-ddab-4927-91b6-68504ef5d5f9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/live.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_ui_parts.scss" afterPath="$PROJECT_DIR$/_sass/_ui_parts.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/styles.css" afterPath="$PROJECT_DIR$/_site/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/03/27/welcome-to-jekyll.html" />
@@ -79,19 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_helpers.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_sass/_helpers.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="50" selection-start="232" selection-end="232" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="595">
+            <state line="23" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -124,10 +114,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ui_parts.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_ui_parts.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="29" selection-start="684" selection-end="684" vertical-scroll-proportion="0.66360855" vertical-offset="161" max-vertical-offset="1887">
+            <state line="66" column="8" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.8431373" vertical-offset="773" max-vertical-offset="1972">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="live.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/live.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="44" selection-start="121" selection-end="121" vertical-scroll-proportion="0.12518409" vertical-offset="0" max-vertical-offset="679">
               <folding />
             </state>
           </provider>
@@ -172,7 +171,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="561">
+            <state line="8" column="69" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -227,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss" />
         <option value="$PROJECT_DIR$/_assets/fonts/webfontkit-20140327-203607/narkistam.css" />
@@ -248,11 +246,12 @@
         <option value="$PROJECT_DIR$/_sass/_variables.scss" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/_includes/broadcast/live-broadcast.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_navs.scss" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_sass/_ui_parts.scss" />
+        <option value="$PROJECT_DIR$/live.html" />
       </list>
     </option>
   </component>
@@ -318,56 +317,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hasulam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,7 +402,11 @@
       <created>1395964398112</created>
       <updated>1395964398112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding nav, changing hat">
+      <created>1396191104958</created>
+      <updated>1396191104958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -497,19 +450,13 @@
     <MESSAGE value="Added:&#10;1. Compass,&#10;2. SASS Bootstrap&#10;3. Changed folder structure&#10;4. Changed what's included/excluded from _site" />
     <MESSAGE value="Started working with includes" />
     <MESSAGE value="Started working with includes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started working with includes&#10;" />
+    <MESSAGE value="adding nav, changing hat" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding nav, changing hat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_sass/_rtl.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_assets/fonts/webfontkit-20140327-203607/narkistam.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="0" selection-end="1196" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="799">
@@ -629,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="241" selection-end="241" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/broadcast/live-broadcast.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="527">
@@ -673,14 +606,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="203" selection-end="203" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="595">
+        <state line="23" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_ui_parts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="29" selection-start="684" selection-end="684" vertical-scroll-proportion="0.66360855" vertical-offset="161" max-vertical-offset="1887">
+        <state line="66" column="8" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.8431373" vertical-offset="773" max-vertical-offset="1972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="69" selection-start="347" selection-end="347" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="121" selection-end="121" vertical-scroll-proportion="0.12518409" vertical-offset="0" max-vertical-offset="679">
           <folding />
         </state>
       </provider>
