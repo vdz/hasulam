@@ -88,6 +88,26 @@
   margin-bottom: 20px;
 }
 
+/* line 15, ../_sass/_typography.scss */
+.font-light {
+  font-weight: 300;
+}
+
+/* line 16, ../_sass/_typography.scss */
+.font-normal {
+  font-weight: 400;
+}
+
+/* line 17, ../_sass/_typography.scss */
+.font-bold {
+  font-weight: 700;
+}
+
+/* line 18, ../_sass/_typography.scss */
+.font-black {
+  font-weight: 900;
+}
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../../../.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -7881,17 +7901,13 @@ body {
 /* line 104, ../_sass/_ui_parts.scss */
 .section {
   padding: 15px;
+}
+/* line 107, ../_sass/_ui_parts.scss */
+.section.border-top {
   margin-top: 0;
 }
-/* line 108, ../_sass/_ui_parts.scss */
-.section.border-top {
-  border-top: solid 1px #eeeeee;
-}
-/* line 112, ../_sass/_ui_parts.scss */
+/* line 111, ../_sass/_ui_parts.scss */
 .section .section-title {
-  font-size: 34px;
-  padding-left: 0;
-  padding-right: 0;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -7902,22 +7918,25 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 34px;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media (min-width: 480px) {
-  /* line 112, ../_sass/_ui_parts.scss */
+  /* line 111, ../_sass/_ui_parts.scss */
   .section .section-title {
     float: right;
     width: 83.3333333333%;
   }
 }
 @media (min-width: 480px) {
-  /* line 112, ../_sass/_ui_parts.scss */
+  /* line 111, ../_sass/_ui_parts.scss */
   .section .section-title {
     margin-right: 16.6666666667%;
   }
 }
 
-/* line 123, ../_sass/_ui_parts.scss */
+/* line 122, ../_sass/_ui_parts.scss */
 #__rtc {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7926,7 +7945,7 @@ body {
   min-height: 400px;
   width: 100%;
 }
-/* line 129, ../_sass/_ui_parts.scss */
+/* line 128, ../_sass/_ui_parts.scss */
 #__rtc iframe {
   position: absolute;
   top: 0;

@@ -103,19 +103,18 @@ $logo-size : 60px + $padding-base-vertical * 3;
 
 .section {
     padding: $grid-gutter-width/2;
-    margin-top: 0;
 
     &.border-top {
-        border-top: solid 1px $gray-lighter;
+        margin-top: 0;
     }
 
     .section-title {
-        font-size: $font-size-h2;
-        padding-left: 0;
-        padding-right: 0;
         @include make-sm-column(10);
         @include make-sm-column-offset(2);
         @include make-xs-column(12);
+        font-size: $font-size-h2;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 

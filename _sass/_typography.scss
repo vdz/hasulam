@@ -11,3 +11,8 @@ $f-black        : 900;
     font-weight: $f-black;
     margin-bottom: $master-gutter * 2;
 }
+
+.font-light     { font-weight: $f-light; }
+.font-normal    { font-weight: $f-normal; }
+.font-bold      { font-weight: $f-bold; }
+.font-black     { font-weight: $f-black; }
