@@ -4,15 +4,32 @@ title: דף הבית
 alert: שלום חברים יקרים! אתר הסולם עובר שינויים ובקרוב יחזור לפעילות שלמה. לשאלות ומשובים פנו אלינו לדואר <a href="mailto:hasulam.site@gmail.com">hasulam.site@gmail.com</a>.
 ---
     {% if page.alert %}
-        <section class="site-alert container-fluid">
+        <section class="section site-alert border-top bg-warning container-fluid">
             <section class="row">
+                <a name="alert"></a>
+                <h1 class="section-title">הודעה חשובה</h1>
                 <blockquote class="lead">{{ page.alert }}</blockquote>
             </section>
         </section>
     {% endif %}
 
-    <h1 class="section-title text-center container-fluid"><a name="live">שידור חי</a></h1>
-    {% include broadcast/live-broadcast.html %}
+    <section class="section border-top">
+        <a name="live"></a>
+        <h1 class="section-title">שידור חי</h1>
+        {% include broadcast/live-broadcast.html %}
+    </section>
+
+    <section class="section border-top">
+        <a name="contact"></a>
+        <h1 class="section-title">יצירת קשר</h1>
+        <div class="col-sm-8">
+            {% include contact-form.html %}
+        </div>
+        <div class="col-sm-4">
+            <h2>קשר עם הסולם</h2>
+            ...
+        </div>
+    </section>
 
 
 <!--

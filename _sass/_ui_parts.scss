@@ -3,7 +3,6 @@ body {
    border-top: solid $master-gutter/2 $brand-dark-1;
 }
 
-
 // Logo
 $logo-size : 60px + $padding-base-vertical * 3;
 .logo {
@@ -80,16 +79,15 @@ $logo-size : 60px + $padding-base-vertical * 3;
     }
 }
 
-.site-alert {
-    @include border(bottom);
-    margin-top: $padding-large-vertical * 2;
-    margin-bottom: $padding-large-vertical;
 
+// Site alert
+.site-alert {
     .lead {
         @include make-xs-column(10);
         @include make-xs-column-offset(1);
-
         padding: $padding-large-vertical $padding-large-horizontal;
+        border-color: $brand-warning;
+
         //border-top: solid 5px $brand-dark-1;
 
         /*@include make-sm-column(10);
@@ -100,6 +98,24 @@ $logo-size : 60px + $padding-base-vertical * 3;
 
         @include make-lg-column(8);
         @include make-lg-column-offset(2);*/
+    }
+}
+
+.section {
+    padding: $grid-gutter-width/2;
+    margin-top: 0;
+
+    &.border-top {
+        border-top: solid 1px $gray-lighter;
+    }
+
+    .section-title {
+        font-size: $font-size-h2;
+        padding-left: 0;
+        padding-right: 0;
+        @include make-sm-column(10);
+        @include make-sm-column-offset(2);
+        @include make-xs-column(12);
     }
 }
 
